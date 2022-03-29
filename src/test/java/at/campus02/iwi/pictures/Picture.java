@@ -10,4 +10,15 @@ public class Picture {
         return length * width;
     }
 
+    public int totalSize(int bytePerPixel) {
+        return totalPixels() * bytePerPixel;
+    }
+
+    public void scale(double factor) {
+        length = (int)(length * factor);
+        width *= factor;
+    }
+
+
+
 }
