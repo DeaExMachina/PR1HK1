@@ -6,23 +6,23 @@ import org.junit.Test;
 public class VaccinationAppointmentTest  {
     @Test
     public void testcalculateRiskClass9() {
-//        VaccinationAppointment vaccinationAppointment = new VaccinationAppointment();
-//
-//        assertEquals(9, vaccinationAppointment.calculateRiskClass(
-//                67, true, false,
-//                false,false,false));
-//        assertEquals(11, vaccinationAppointment.calculateRiskClass(
-//                67, true, true,
-//                false,false,false));
-//        assertEquals(9, vaccinationAppointment.calculateRiskClass(
-//                22, true, true,
-//                true,false,false));
-//        assertEquals(7, vaccinationAppointment.calculateRiskClass(
-//                31, true, false,
-//                false,true,false));
-//        assertEquals(5, vaccinationAppointment.calculateRiskClass(
-//                45, false, false,
-//                false,false,true));
+        VaccinationAppointment vaccinationAppointment = new VaccinationAppointment();
+
+        assertEquals(9, vaccinationAppointment.calculateRiskClass(
+                67, true, false,
+                false,false,false));
+        assertEquals(11, vaccinationAppointment.calculateRiskClass(
+                67, true, true,
+                false,false,false));
+        assertEquals(9, vaccinationAppointment.calculateRiskClass(
+                22, true, true,
+                true,false,false));
+        assertEquals(7, vaccinationAppointment.calculateRiskClass(
+                31, true, false,
+                false,true,false));
+        assertEquals(5, vaccinationAppointment.calculateRiskClass(
+                45, false, false,
+                false,false,true));
     }
     @Test
     public void testCalculateMonthAndVaccinePfizer() {
