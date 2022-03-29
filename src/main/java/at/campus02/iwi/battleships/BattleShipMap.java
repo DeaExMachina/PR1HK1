@@ -96,7 +96,6 @@ public class BattleShipMap {
                 }
             }
         }
-
        return summe / (double)anzahl; //Typecasting, damit das Ergebnis als Kommazahl angegeben wird
     }
 }
