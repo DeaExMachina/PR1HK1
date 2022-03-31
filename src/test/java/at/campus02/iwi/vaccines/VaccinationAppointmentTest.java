@@ -26,30 +26,30 @@ public class VaccinationAppointmentTest  {
     }
     @Test
     public void testCalculateMonthAndVaccinePfizer() {
-//        VaccinationAppointment vaccinationAppointment = new VaccinationAppointment();
-//
-//        int riskClass = vaccinationAppointment.calculateRiskClass(
-//                67, true, false,
-//                false,false,false);
-//
-//        String[] appointment = vaccinationAppointment.calculateMonthAndVaccine(
-//                67, riskClass);
-//
-//        assertEquals("February", appointment[0]);
-//        assertEquals("Pfizer", appointment[1]);
+        VaccinationAppointment vaccinationAppointment = new VaccinationAppointment();
+
+        int riskClass = vaccinationAppointment.calculateRiskClass(
+                67, true, false,
+                false,false,false);
+
+        String[] appointment = vaccinationAppointment.calculateMonthAndVaccine(
+                67, riskClass);
+
+        assertEquals("February", appointment[0]);
+        assertEquals("Pfizer", appointment[1]);
     }
     @Test
     public void testCalculateMonthAndVaccineModerna() {
-//        VaccinationAppointment vaccinationAppointment = new VaccinationAppointment();
-//
-//        int riskClass = vaccinationAppointment.calculateRiskClass(
-//                64, false, true,
-//                false,false,false);
-//
-//        String[] appointment = vaccinationAppointment.calculateMonthAndVaccine(
-//                64, riskClass);
-//
-//        assertEquals("March", appointment[0]);
-//        assertEquals("Moderna", appointment[1]);
+        VaccinationAppointment vaccinationAppointment = new VaccinationAppointment();
+
+        int riskClass = vaccinationAppointment.calculateRiskClass(
+                64, false, true,
+                false,false,false);
+
+        String[] appointment = vaccinationAppointment.calculateMonthAndVaccine(
+                64, riskClass);
+
+        assertEquals("March", appointment[0]);
+        assertEquals("Moderna", appointment[1]);
     }
 }
